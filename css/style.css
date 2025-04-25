@@ -121,6 +121,50 @@ a {
     margin-bottom: 5px;
 }
 
+/* à partir d'ici c'est mon code */
+
+/* class dans header pour reagrouper logo et ul. le flex va les organicer en file et le space between va les separer au max */
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* class qui cree des espaces entre le logo et la bordure de la page */
+#logo{
+    padding: 60px 50px 30px 50px;
+}
+
+/* ça done de feedback aux utilisateurs quand ils passent le souris sur le logo en indicant qui est clickable */
+#logo :hover{
+    opacity: 0.8;
+}
+
+/* flex pour mettre les li à coté, gap pour les separer entre eux, lis-style pour enlever la decoration et padding pour l'espace entre le text et la bordure */
+.liens{
+    display: flex;
+    padding: 10px 50px 0 50px ;
+    gap: 68px;
+    list-style: none;
+    
+}
+
+/* espace en haut entre le text et la bordure + creation bordure transparent pour occuper l'espace qui va à occuper après la barre decorative bleu et qui eviterá que le text bouge au moment de passer la soures au dessus */
+.liens li{
+    padding-top: 20px;
+    border-top: 3px solid transparent;
+}
+
+/* ligne decorative en haut et changement coulour du text au passage du souris */
+.liens :hover{
+    border-top: 3px solid  #0065FC ;
+    color: #0065FC; 
+}
+
+/* suppresion marge superieur pour permettre au border top des liens se separer plus des mots hebergements et activités */
+header{
+    margin-top: -32px;
+}
+
 
 
 
@@ -164,49 +208,4 @@ a {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
-}
-
-
-/* à partir d'ici c'est mon code */
-
-/* class dans header pour reagrouper logo et ul. le flex va les organicer en file et le space between va les separer au max */
-.navegation{
-    display: flex;
-    justify-content: space-between;
-    
-}
-/* class qui cree des espaces entre le logo et la bordure de la page */
-#logo{
-    padding: 60px 50px 30px 50px;
-}
-
-/* ça done de feedback aux utilisateurs quand ils passent le souris sur le logo en indicant qui est clickable */
-#logo :hover{
-    opacity: 0.8;
-}
-
-/* flex pour mettre les li à coté, gap pour les separer entre eux, lis-style pour enlever la decoration et padding pour l'espace entre le text et la bordure */
-.liens{
-    display: flex;
-    padding: 10px 50px 0 50px ;
-    gap: 68px;
-    list-style: none;
-    
-}
-
-/* espace en haut entre le text et la bordure + creation bordure transparent pour occuper l'espace qui va à occuper après la barre decorative bleu et qui eviterá que le text bouge au moment de passer la soures au dessus */
-.liens li{
-    padding-top: 20px;
-    border-top: 3px solid transparent;
-}
-
-/* ligne decorative en haut et changement coulour du text au passage du souris */
-.liens :hover{
-    border-top: 3px solid  #0065FC ;
-    color: #0065FC; 
-}
-
-/* suppresion marge superieur pour permettre au border top des liens se separer plus des mots hebergements et activités */
-header{
-    margin-top: -32px;
 }
