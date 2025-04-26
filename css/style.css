@@ -121,7 +121,77 @@ a {
     margin-bottom: 5px;
 }
 
+/* class pour le formulaire de recherche */
 
+.formulaire-recherche{
+    display: flex;
+    margin: 15px 0 15px 0;
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formulaire-recherche input{
+    border: solid 1px #D9D9D9;
+    text-align: center;
+    width: 100%;
+}
+
+.formulaire-recherche button{
+    background-color: #0065FC;
+    color:#F2F2F2 ;
+    font-weight: 500;
+    border-radius: 0 15px 15px 0;
+    border: none;
+    width: 60%;
+}
+
+.formulaire-recherche button:hover{
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.6) ;
+    opacity: 0.9;
+}
+
+.formulaire-recherche img{
+    background-color: #D9D9D9;
+    border-radius: 15px 0 0 15px;
+    padding: 12px 16px 12px 16px;
+   
+}
+
+input::placeholder{
+    font-weight: bold;
+    color: black;
+}
+/* class pour les filtres */
+.filtres{
+    display: flex;
+    gap: 16px;
+}
+
+.filtres button{
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color:white;
+    border: solid 2px #D9D9D9;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.filtres button:hover{
+    background-color: #DEEBFF;
+}
+
+/* class message en dessous des filtres */
+.info-disponibilite{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
