@@ -1,12 +1,12 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 :root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #deebff;
 }
 
 .fa-solid {
@@ -55,7 +55,7 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 /****** Hebergements And Populaires ***********/
@@ -74,6 +74,36 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+/* ça fait une columne entre le title et les cards */
+section .hebergements {
+    display: flex;
+    flex-direction: column;
+}
+
+.hebergements .card-rating {
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.hebergements .card-title {
+    margin-left: 10px;
+}
+
+.hebergements .card-subtitle {
+    margin-left: 10px;
+}
+
+.hebergements img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center 75%;
+}
+
+.hebergements-title {
+    width: 100%;
 }
 
 /****** Populaires ***********/
@@ -121,56 +151,54 @@ a {
     margin-bottom: 5px;
 }
 
-        /* styles pour le header */
+/* styles pour le header */
 
 /* class dans header pour reagrouper logo et ul. le flex va les organicer en file et le space between va les separer au max */
-.navegation{
+.navegation {
     display: flex;
     justify-content: space-between;
 }
 /* class qui cree des espaces entre le logo et la bordure de la page */
-#logo{
+#logo {
     padding: 50px 50px 30px 0;
-
 }
-#logo img{
+#logo img {
     max-width: 40%;
 }
 
 /* ça done de feedback aux utilisateurs quand ils passent le souris sur le logo en indicant qui est clickable */
-#logo :hover{
+#logo :hover {
     opacity: 0.8;
-
 }
 
 /* flex pour mettre les li à coté, gap pour les separer entre eux, lis-style pour enlever la decoration et padding pour l'espace entre le text et la bordure */
-.liens{
+.liens {
     display: flex;
-    padding: 10px 50px 0 50px ;
+    padding: 10px 50px 0 50px;
     gap: 68px;
-    list-style: none; 
+    list-style: none;
 }
 
 /* espace en haut entre le text et la bordure + creation bordure transparent pour occuper l'espace qui va à occuper après la barre decorative bleu et qui eviterá que le text bouge au moment de passer la soures au dessus */
-.liens li{
+.liens li {
     padding-top: 15px;
     border-top: 3px solid transparent;
 }
 
 /* ligne decorative en haut et changement coulour du text au passage du souris */
-.liens :hover{
-    border-top: 3px solid  #0065FC ;
-    color: #0065FC; 
+.liens :hover {
+    border-top: 3px solid #0065fc;
+    color: #0065fc;
 }
 
 /* suppresion marge superieur pour permettre au border top des liens se separer plus des mots hebergements et activités */
-header{
+header {
     margin-top: -32px;
 }
 
-        /* styles pour le formulaire de recherche */
+/* styles pour le formulaire de recherche */
 
-.formulaire-recherche{
+.formulaire-recherche {
     display: flex;
     margin: 15px 0 15px 0;
     width: 300px;
@@ -179,67 +207,65 @@ header{
     margin-bottom: 30px;
 }
 
-.formulaire-recherche input{
-    border: solid 1px #D9D9D9;
+.formulaire-recherche input {
+    border: solid 1px #d9d9d9;
     text-align: center;
     width: 100%;
 }
 
-.formulaire-recherche button{
-    background-color: #0065FC;
-    color:#F2F2F2 ;
+.formulaire-recherche button {
+    background-color: #0065fc;
+    color: #f2f2f2;
     font-weight: 500;
     border-radius: 0 15px 15px 0;
     border: none;
     width: 60%;
 }
 
-.formulaire-recherche button:hover{
-    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.6) ;
+.formulaire-recherche button:hover {
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.6);
     opacity: 0.9;
 }
 
-.formulaire-recherche img{
-    background-color: #D9D9D9;
+.formulaire-recherche img {
+    background-color: #d9d9d9;
     border-radius: 15px 0 0 15px;
     padding: 12px 16px 12px 16px;
-   
 }
 
-input::placeholder{
+input::placeholder {
     font-weight: bold;
     color: black;
 }
-        /* styles pour les filtres */
-.filtres{
+/* styles pour les filtres */
+.filtres {
     display: flex;
     gap: 16px;
 }
 
-.filtres button{
+.filtres button {
     border-radius: 25px;
     display: flex;
     align-items: center;
     gap: 10px;
-    background-color:white;
-    border: solid 2px #D9D9D9;
+    background-color: white;
+    border: solid 2px #d9d9d9;
     padding: 0 20px;
     font-weight: bold;
 }
 
-.filtres button:hover{
-    background-color: #DEEBFF;
+.filtres button:hover {
+    background-color: #deebff;
 }
 
-        /* styles message en dessous des filtres */
-.info-disponibilite{
+/* styles message en dessous des filtres */
+.info-disponibilite {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
