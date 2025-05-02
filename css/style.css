@@ -123,7 +123,7 @@ h1 {
     border-radius: 20px 20px 0 0;
 }
 
-.hebergements-and-populaires h4 {
+.affichage {
     font-size: 1.125em;
     margin-bottom: 5px;
 }
@@ -211,6 +211,11 @@ h1 {
 .liens :hover {
     border-top: 3px solid #0065fc;
     color: #0065fc;
+}
+
+/* style pour eviter que une deuxième ligne bleue apparait sur les liens */
+.liens a:hover {
+    border-top: none;
 }
 
 /* suppresion marge superieur pour permettre au border top des liens se separer plus des mots hebergements et activités */
