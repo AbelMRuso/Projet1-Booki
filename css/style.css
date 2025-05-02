@@ -173,6 +173,43 @@ h1 {
     margin-bottom: 5px;
 }
 
+/* ****** section activités ****** */
+.activites {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contenair-activites {
+    width: 100%;
+    height: 450px;
+    margin-top: 33px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.card-activites {
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.2));
+    width: 23%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.card-activites .card-title {
+    margin-left: 15px;
+}
+
+.card-activites img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
 /* styles pour le header */
 
 /* class dans header pour reagrouper logo et ul. le flex va les organicer en file et le space between va les separer au max */
