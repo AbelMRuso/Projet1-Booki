@@ -331,6 +331,31 @@ input::placeholder {
     margin-bottom: 20px;
 }
 
+/****** styles pour le footer******/
+footer {
+    background-color: #f2f2f2;
+    display: flex;
+    gap: 280px;
+    justify-content: start;
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.liens-footer {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px;
+}
+
+footer h4.card-title {
+    margin: 0px;
+}
+
+footer li {
+    font-size: 0.9em;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
