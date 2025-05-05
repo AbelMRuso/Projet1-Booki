@@ -84,15 +84,17 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 25px;
     margin-top: 33px;
     margin-bottom: 33px;
-    align-items: center;
 }
 
 .hebergements-cards .card {
     width: 30%;
-    height: fit-content;
+    height: auto;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hebergements-cards .card-rating {
@@ -126,6 +128,7 @@ h1 {
 .affichage {
     font-size: 1.125em;
     margin-bottom: 5px;
+    margin-top: -25px;
 }
 
 /****** Populaires ***********/
@@ -206,7 +209,7 @@ h1 {
 
 .card-activites img {
     width: 100%;
-    height: 390px;
+    height: 380px;
     object-fit: cover;
 }
 
@@ -359,6 +362,7 @@ footer h4.card-title {
 footer li {
     font-size: 0.9em;
 }
+
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
