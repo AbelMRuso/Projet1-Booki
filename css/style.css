@@ -273,6 +273,7 @@ header {
 
 .formulaire-recherche input {
     border: solid 1px #f2f2f2;
+    font-size: 0.9em;
     text-align: center;
     width: 100%;
 }
@@ -339,6 +340,8 @@ footer {
     justify-content: start;
     padding: 30px;
     padding-bottom: 0px;
+    padding-top: 22px;
+    margin-top: 30px;
 }
 
 .liens-footer {
