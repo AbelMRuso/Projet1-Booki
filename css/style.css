@@ -326,6 +326,10 @@ input::placeholder {
     background-color: #deebff;
 }
 
+.filtres i {
+    font-size: 1.5em;
+}
+
 /* styles message en dessous des filtres */
 .info-disponibilite {
     display: flex;
