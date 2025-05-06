@@ -433,6 +433,10 @@ footer li {
         flex-direction: column;
         justify-content: flex-end;
     }
+
+    footer {
+        padding-right: 100px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
