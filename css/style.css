@@ -308,7 +308,7 @@ input::placeholder {
 /* styles pour les filtres */
 .filtres {
     display: flex;
-    gap: 16px;
+    gap: 1em;
 }
 
 .filtres button {
@@ -320,6 +320,12 @@ input::placeholder {
     border: solid 2px #d9d9d9;
     padding: 0 20px;
     font-weight: bold;
+}
+
+.button-filtres {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
 }
 
 .filtres button:hover {
@@ -401,6 +407,35 @@ footer li {
 
     .populaires-cards .card-subtitle {
         font-size: 0.81em;
+    }
+
+    .filtres {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .filtres button {
+        padding: 1em;
+    }
+
+    .contenair-activites {
+        height: 300px;
+    }
+
+    .card-activites img {
+        height: 220px;
+    }
+
+    .card-activites h3 {
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+
+    footer {
+        padding-right: 100px;
     }
 }
 
