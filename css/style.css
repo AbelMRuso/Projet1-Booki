@@ -442,4 +442,38 @@ footer li {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    .navegation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+    }
+
+    .liens li {
+        margin-top: 0;
+        padding-top: 0;
+        padding-bottom: 5px;
+        border-bottom: solid 3px transparent;
+    }
+
+    .liens a {
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .liens li:hover {
+        border-top: none;
+    }
+
+    .liens li:active {
+        border-bottom: solid 3px #0065fc;
+    }
+
+    .navegation #logo {
+        padding: 50px;
+        padding-bottom: 0;
+    }
 }
