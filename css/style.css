@@ -536,4 +536,16 @@ footer li {
         padding-left: 20px;
         font-size: 1.2em;
     }
+
+    .button-filtres {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: start;
+    }
+
+    .button-filtres button {
+        width: 40%;
+        font-size: 0.85em;
+        text-align: center;
+    }
 }
