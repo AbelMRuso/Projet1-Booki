@@ -28,20 +28,28 @@
                     </div>
 
                     <ul class="liens">
-                        <li><a href="#hebergements">Hébergements</a></li>
-                        <li><a href="#activites">Activités</a></li>
+                        <li><a href="#">Hébergements</a></li>
+                        <li><a href="#">Activités</a></li>
                     </ul>
                 </nav>
             </header>
             <main>
                 <section>
-                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                    <p>En plein centre-ville ou en pleine nature</p>
+                    <div class="title-site">
+                        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                        <p>En plein centre-ville ou en pleine nature</p>
+                    </div>
+
                     <!-- debout zone formulaire de recherche -->
                     <form class="formulaire-recherche" method="get" action="">
                         <img src="images/logo/pin map.png" alt="pin map" />
                         <input type="text" placeholder="Marseille, France" />
-                        <button type="submit">Rechercher</button>
+                        <!-- bouton desktop -->
+                        <button type="submit" class="btn-desk">Rechercher</button>
+                        <!-- bouton mobile -->
+                        <button type="submit" class="btn-mobile">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #ffff"></i>
+                        </button>
                     </form>
 
                     <!--debout zone filtres -->
