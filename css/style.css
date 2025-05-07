@@ -441,10 +441,11 @@ footer li {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
     .main-container {
         padding: 15px;
     }
+
+    /***** partie header ******/
 
     .navegation {
         display: flex;
@@ -486,5 +487,15 @@ footer li {
     .navegation #logo {
         padding: 50px;
         padding-bottom: 0;
+    }
+
+    /****** partie title, formulaire et filtres *******/
+
+    .title-site p {
+        margin-top: 0px;
+    }
+
+    .title-site h1 {
+        margin-bottom: 10px;
     }
 }
