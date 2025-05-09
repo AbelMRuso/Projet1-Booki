@@ -495,6 +495,11 @@ footer li {
 
     /****** partie title, formulaire et filtres *******/
 
+    .title-formulaire {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .title-site p {
         margin-top: 0px;
     }
@@ -540,7 +545,11 @@ footer li {
     .button-filtres {
         flex-wrap: wrap;
         width: 100%;
-        justify-content: start;
+        justify-content: center;
+    }
+
+    .filtres p {
+        padding-left: 16px;
     }
 
     .button-filtres button {
@@ -548,6 +557,8 @@ footer li {
         font-size: 0.85em;
         text-align: center;
     }
+
+    /******* hebergements and populaires  */
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -604,6 +615,8 @@ footer li {
         margin-top: 18px;
     }
 
+    /**** Section activités  ******/
+
     section.activites {
         margin: 0;
         margin-top: 16px;
@@ -623,11 +636,23 @@ footer li {
         margin-top: 18px;
     }
 
+    /***** Section footer  *****/
+
     footer {
         flex-direction: column;
         gap: 18px;
         width: 100%;
         height: auto;
         padding-left: 16px;
+    }
+
+    /*** body et main-container pour eliminer les bordures  *****/
+
+    .main-container {
+        padding: 0;
+    }
+
+    body {
+        margin: 0;
     }
 }
