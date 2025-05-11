@@ -352,6 +352,18 @@ input::placeholder {
     margin-bottom: 20px;
 }
 
+.icone-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8em;
+    padding: 10px;
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    border: solid 2px #d9d9d9;
+}
+
 /****** styles pour le footer******/
 footer {
     background-color: #f2f2f2;
