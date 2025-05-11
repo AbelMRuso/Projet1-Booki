@@ -85,7 +85,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 33px;
-    margin-bottom: 33px;
+    margin-bottom: 6px;
 }
 
 .hebergements-cards .card {
