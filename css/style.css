@@ -390,6 +390,10 @@ footer li {
         width: 100%;
     }
 
+    .hebergements-cards {
+        margin-bottom: 6px;
+    }
+
     .populaires {
         width: 100%;
         margin-top: 50px;
