@@ -187,7 +187,7 @@ h1 {
 
 .contenair-activites {
     width: 100%;
-    height: 450px;
+    height: 280px;
     margin-top: 33px;
     background-color: white;
     display: flex;
@@ -203,13 +203,22 @@ h1 {
     background-color: #f2f2f2;
 }
 
+a.card-activites {
+    display: flex;
+    flex-direction: column;
+}
+
 .card-activites .card-title {
     margin-left: 15px;
+    margin-right: 5px;
+    height: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .card-activites img {
     width: 100%;
-    height: 380px;
+    height: 220px;
     object-fit: cover;
 }
 
