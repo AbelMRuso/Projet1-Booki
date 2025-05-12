@@ -584,8 +584,9 @@ footer li {
 
     .button-filtres button {
         width: 45%;
-        font-size: 0.85em;
-        text-align: center;
+        font-size: 0.8em;
+        display: flex;
+        justify-content: start;
     }
 
     /******* hebergements and populaires  */
