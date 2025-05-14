@@ -139,6 +139,10 @@ header {
     align-items: center;
 }
 
+.icone-formulaire i {
+    color: black;
+}
+
 .formulaire-recherche button {
     background-color: #0065fc;
     color: #f2f2f2;
@@ -178,6 +182,10 @@ input::placeholder {
     font-weight: bold;
 }
 
+.filtres i {
+    color: #0065fc;
+}
+
 .button-filtres {
     display: flex;
     flex-direction: row;
@@ -211,6 +219,10 @@ input::placeholder {
     height: 0.6em;
     border-radius: 50%;
     border: solid 2px #d9d9d9;
+}
+
+.icone-info i {
+    color: #0065fc;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -558,6 +570,7 @@ footer li {
 
     .formulaire-recherche .btn-mobile i {
         font-size: 1.3em;
+        color: white;
     }
 
     .formulaire-recherche img {
@@ -672,7 +685,7 @@ footer li {
     footer {
         flex-direction: column;
         gap: 18px;
-        width: 100%;
+        max-width: 100%;
         height: auto;
         padding-left: 16px;
     }
